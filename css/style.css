@@ -14,6 +14,10 @@ body {
     font-family: "Cabin", sans-serif;
 }
 
+ul {
+    list-style-type: none;
+}
+
 button {
     padding: .6em 1.2em;
     border: 1px solid transparent;
@@ -49,8 +53,7 @@ header nav {
     padding: .4em;
 }
 
-nav ul {
-    list-style-type: none;
+header nav ul {
     justify-content: space-around;
     flex-grow: 1;
 }
@@ -124,6 +127,27 @@ div.ready-to-start h2 {
 
 div.ready-to-start button {
     font-size: 1.2rem;
+}
+
+footer nav {
+    width: 90%;
+    padding: 4em 0 1em;
+    border-bottom: 1px solid #7289da;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+ul.social-icons {
+    justify-content: space-between;
+}
+
+select {
+    border: none;
+}
+
+footer nav ul li {
+    color: white;
 }
 
 .flex-container {
