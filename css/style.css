@@ -20,6 +20,15 @@ button {
     margin: 0 .4em;
 }
 
+h1 {
+    font-size: 3.3em;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
 header {
     background-color: #255ee9;
 }
@@ -56,13 +65,10 @@ header .jumbotron {
 }
 
 header .jumbotron h1 {
-    font-size: 3.3em;
     padding: 1.8em 1em .8em;
 }
 
 header .jumbotron p {
-    font-size: 1.2em;
-    line-height: 1.5em;
     padding-bottom: 1em;
 }
 
@@ -70,9 +76,31 @@ header .jumbotron button {
     margin: 0 .4em;
 }
 
+main section {
+    padding: 6em 5em 0;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+main section img {
+    width: 55%;
+}
+
+main section div {
+    width: 35%;
+    padding: 2em 0;
+}
+
+main section div h1 {
+    padding-bottom: .4em;
+}
 
 .flex-container {
     display: flex;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
 }
 
 
