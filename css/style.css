@@ -59,18 +59,20 @@ header nav ul {
 }
 
 header>section {
-    background-color: #547ce0;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
 }
 
 header .jumbotron {
     max-width: 60%;
     margin: 0 auto;
     text-align: center;
-    padding: 2em;
+    padding: 2em 2em 5em;
 }
 
 header .jumbotron h1 {
-    padding: 1.8em 1em .8em;
+    padding: 1.5em 1em .8em;
 }
 
 header .jumbotron p {
@@ -79,6 +81,7 @@ header .jumbotron p {
 
 header .jumbotron button {
     margin: 0 .4em;
+    font-size: 1.2em;
 }
 
 div.section>div {
@@ -130,24 +133,49 @@ div.ready-to-start button {
 }
 
 footer nav {
-    width: 90%;
-    padding: 4em 0 1em;
+    width: 80%;
+    padding: 4em 0 2em;
     border-bottom: 1px solid #7289da;
     margin: 0 auto;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-ul.social-icons {
-    justify-content: space-between;
+footer nav div {
+    width: 30%;
+}
+
+footer nav h2 {
+    font-size: 2.3em;
+    padding-bottom: .5em;
+}
+
+#flag {
+    width: 1.5em;
 }
 
 select {
     border: none;
+    font-size: 1em;
+}
+
+div.social-icons img {
+    width: 1em;
+    display: inline-block;
+    margin-right: .3em;
+    padding-top: .8em;
 }
 
 footer nav ul li {
     color: white;
+    margin-top: .8em;
+}
+
+div.bottom-bar {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 1em 0 5em;
 }
 
 .flex-container {

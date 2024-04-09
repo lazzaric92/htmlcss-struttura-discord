@@ -16,7 +16,7 @@
 <body>
     <header>
         <div class="top-bar flex-container">
-            <img src="" alt="Discord Logo">
+            <img src="img/logo.svg" alt="Discord Logo">
             <nav class="flex-container">
                 <ul class="flex-container font-white">
                     <li>Scarica</li>
@@ -37,7 +37,7 @@
                     exercitationem cumque earum quod atque quidem consequatur vero numquam impedit molestias illo magni
                     molestiae unde commodi tenetur.
                 </p>
-                <button>&#11015; Scarica per Mac</button>
+                <button>Scarica per Mac</button>
                 <button class="font-white bg-darkgrey">Apri Discord nel tuo browser</button>
             </div>
         </section>
@@ -110,32 +110,32 @@
             <div>
                 <h2 class="font-lightblue">Il tuo posto per parlare
                 </h2>
-                <img src="img/ita.png" alt="Bandiera italiana">
+                <img id="flag" src="img/ita.png" alt="Bandiera italiana">
                 <select class="bg-darkgrey font-white" name="lang">
                     <option value="ita">Italiano</option>
                 </select>
-                <ul class="social-icons flex-container">
-                    <li>icon</li>
-                    <li>icon</li>
-                    <li>icon</li>
-                    <li>icon</li>
-                </ul>
+                <div class="social-icons">
+                    <img src="" alt="icon">
+                    <img src="" alt="icon">
+                    <img src="" alt="icon">
+                    <img src="" alt="icon">
+                </div>
             </div>
-            <ul class="font-lightblue">Prodotto
+            <ul class="font-lightblue"><strong>Prodotto</strong>
                 <li>Scarica</li>
                 <li>Perché Discord</li>
                 <li>Nitro</li>
                 <li>Sicurezza</li>
                 <li>Assistenza</li>
             </ul>
-            <ul class="font-lightblue">Compagnia
+            <ul class="font-lightblue"><strong>Compagnia</strong>
                 <li>Scarica</li>
                 <li>Perché Discord</li>
                 <li>Nitro</li>
                 <li>Sicurezza</li>
                 <li>Assistenza</li>
             </ul>
-            <ul class="font-lightblue">Risorse
+            <ul class="font-lightblue"><strong>Risorse</strong>
                 <li>Scarica</li>
                 <li>Perché Discord</li>
                 <li>Nitro</li>
@@ -147,7 +147,7 @@
                 <li>Sicurezza</li>
                 <li>Assistenza</li>
             </ul>
-            <ul class="font-lightblue">Norme
+            <ul class="font-lightblue"><strong>Norme</strong>
                 <li>Scarica</li>
                 <li>Perché Discord</li>
                 <li>Nitro</li>
@@ -156,7 +156,9 @@
             </ul>
         </nav>
 
-        <div class="bottom-bar">
+        <div class="bottom-bar flex-container">
+            <img src="img/logo.svg" alt="Discord Logo">
+            <button class="bg-lightblue font-white">Registrati</button>
         </div>
     </footer>
 </body>
