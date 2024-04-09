@@ -4,6 +4,91 @@
     box-sizing: border-box;
 }
 
+/* // colors
+    --lightblue: #7289da;
+    --darkgrey: #23272a; 
+*/
+
 body {
     font-family: "Cabin", sans-serif;
+}
+
+button {
+    padding: .7em 1em;
+    border: 1px solid transparent;
+    border-radius: 2em;
+    margin: 0 .4em;
+}
+
+header {
+    background-color: #255ee9;
+}
+
+header .top-bar {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1.4em 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    max-width: 50%;
+    flex-grow: 1;
+    padding: .4em;
+}
+
+nav ul {
+    list-style-type: none;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+header>section {
+    background-color: #547ce0;
+}
+
+header .jumbotron {
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2em;
+}
+
+header .jumbotron h1 {
+    font-size: 3.3em;
+    padding: 1.8em 1em .8em;
+}
+
+header .jumbotron p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding-bottom: 1em;
+}
+
+header .jumbotron button {
+    margin: 0 .4em;
+}
+
+
+.flex-container {
+    display: flex;
+}
+
+
+/* ** COLOR STYLE */
+.bg-lightblue {
+    background-color: #7289da;
+}
+
+.bg-darkgrey {
+    background-color: #23272a;
+}
+
+.font-white {
+    color: white;
+}
+
+.font-lightblue {
+    color: #7289da;
 }
