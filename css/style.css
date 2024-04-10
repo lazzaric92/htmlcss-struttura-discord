@@ -4,14 +4,12 @@
     box-sizing: border-box;
 }
 
-/* // colors
-    --lightblue: #7289da;
-    --darkgrey: #23272a; 
-    --lightgrey: #f6f6f6;
-*/
-
 body {
     font-family: "Cabin", sans-serif;
+}
+
+div.container {
+    max-width: 1200px;
 }
 
 ul {
@@ -23,6 +21,7 @@ button {
     border: 1px solid transparent;
     border-radius: 2em;
     margin: 0 .4em;
+    font-size: 1em;
 }
 
 h1 {
@@ -39,104 +38,90 @@ header {
     background-color: #255ee9;
 }
 
-header .top-bar {
+header section.top-bar {
     width: 90%;
-    margin: 0 auto;
     padding: 1.4em 1em;
-    display: flex;
     justify-content: space-between;
 }
 
-header nav {
-    max-width: 50%;
-    flex-grow: 1;
+section.top-bar nav {
     padding: .4em;
 }
 
-header nav ul {
-    justify-content: space-around;
-    flex-grow: 1;
+section.top-bar button {
+    font-size: .8em;
 }
 
-header>section {
+section.top-bar nav li {
+    display: inline-block;
+    padding: 0 .5em;
+}
+
+header section.jumbotron {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
 }
 
-header .jumbotron {
-    max-width: 60%;
-    margin: 0 auto;
+section .jumbotron-text {
+    width: 60%;
     text-align: center;
     padding: 2em 2em 5em;
 }
 
-header .jumbotron h1 {
+section .jumbotron-text h1 {
     padding: 1.5em 1em .8em;
 }
 
-header .jumbotron p {
-    padding-bottom: 1em;
-}
-
-header .jumbotron button {
+section .jumbotron-text button {
     margin: 0 .4em;
-    font-size: 1.2em;
 }
 
-div.section>div {
+section.content>div {
     width: 100%;
     padding: 6em 10em 6em;
     align-items: flex-start;
     justify-content: space-evenly;
 }
 
-main section img {
+section.content img {
     width: 60%;
 }
 
-main section div {
+section .content-text {
     width: 35%;
     padding: 2em 0;
 }
 
-div.main-content {
-    margin: 2em auto;
+section.main-content {
+    padding-top: 2em;
     text-align: center;
 }
 
-div.main-content div {
+section.main-content div {
     width: 80%;
-    margin: 0 auto;
     padding-top: 3em;
 }
 
-div.main-content img {
+section.main-content img {
     width: 90%;
-    padding-bottom: 1em;
 }
 
-div.ready-to-start {
+div.start {
     background-image: url(../img/stars.svg);
     background-position: top;
     background-repeat: no-repeat;
     padding: 2em 0 8em;
 }
 
-div.ready-to-start h2 {
+div.start h2 {
     font-size: 2rem;
-    padding-bottom: 1em;
-}
-
-div.ready-to-start button {
-    font-size: 1.2rem;
 }
 
 footer nav {
     width: 80%;
     padding: 4em 0 2em;
     border-bottom: 1px solid #7289da;
-    margin: 0 auto;
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -147,11 +132,6 @@ footer nav div {
 
 footer nav h2 {
     font-size: 2.3em;
-    padding-bottom: .5em;
-}
-
-#flag {
-    width: 1.5em;
 }
 
 select {
@@ -171,22 +151,37 @@ footer nav ul li {
     margin-top: .8em;
 }
 
-div.bottom-bar {
+section.bottom-bar {
     width: 80%;
-    margin: 0 auto;
     justify-content: space-between;
     padding: 1em 0 5em;
 }
 
-.flex-container {
+#flag {
+    width: 1.5em;
+}
+
+/*  **  */
+.flex {
     display: flex;
 }
 
-.row-reverse {
-    flex-direction: row-reverse;
+.centered {
+    margin: 0 auto;
 }
 
+.padd-b-1em {
+    padding-bottom: 1em;
+}
+
+
 /* ** COLOR STYLE */
+/* // colors
+    --lightblue: #7289da;
+    --darkgrey: #23272a; 
+    --lightgrey: #f6f6f6;
+*/
+
 .bg-lightblue {
     background-color: #7289da;
 }
